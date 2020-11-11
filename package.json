@@ -1,8 +1,8 @@
 {
   "access": "public",
   "name": "@cloudsponge/oauth-connector.js",
-  "main": "dist/oauth-connector.js",
-  "version": "0.0.2",
+  "main": "dist/oauth-connector-min.js",
+  "version": "0.0.3",
   "description": "This is the implementation of the CloudSponge Proxy URL as an npm package. It is meant to be hosted in the head of a page so that it can detect and redirect when the conditions are perfect (i.e. the user just completed the OAuth flow).",
   "repository": {
     "type": "git",
