@@ -1,0 +1,5 @@
+# Generated files
+coverage/
+node_modules/
+packages/
+dist/
