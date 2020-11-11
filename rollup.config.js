@@ -35,10 +35,6 @@ prodBuild.output = {
   ...baseBuild.output,
   file: './dist/oauth-connector-min.js',
 }
-prodBuild.plugins = [
-  ...baseBuild.plugins,
-  strip(),
-  uglify(),
-]
+prodBuild.plugins = [...baseBuild.plugins, strip(), uglify()]
 
 export default [baseBuild, prodBuild]

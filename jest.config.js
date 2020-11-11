@@ -1,5 +1,4 @@
 module.exports = {
-  setupFiles: ['./jest-setup.js'],
   // node_modules is default.
   testPathIgnorePatterns: ['/node_modules/'],
   verbose: true,
