@@ -1,0 +1,44 @@
+{
+  "access": "public",
+  "name": "@cloudsponge/oauth-connector.js",
+  "main": "dist/oauth-connector.js",
+  "version": "0.0.1",
+  "description": "This is the implementation of the CloudSponge Proxy URL as an npm package. It is meant to be hosted in the head of a page so that it can detect and redirect when the conditions are perfect (i.e. the user just completed the OAuth flow).",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloudsponge/oauth-connector.git"
+  },
+  "author": "Graeme Rouse <graeme@cloudsponge.com>",
+  "license": "MIT",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest --config ./jest.config.js",
+    "test:coverage": "yarn test --coverage",
+    "lint": "yarn eslint \"./**/*.js\"",
+    "lint:fix": "yarn eslint --fix \"./**/*.js\""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@rollup/plugin-babel": "^5.2.1",
+    "@rollup/plugin-commonjs": "^16.0.0",
+    "@rollup/plugin-node-resolve": "^10.0.0",
+    "@rollup/plugin-strip": "^2.0.0",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.6.3",
+    "core-js": "3",
+    "eslint": "^7.13.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-jest": "^24.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "jest": "^26.6.3",
+    "prettier": "^2.1.2",
+    "rollup": "^2.33.1",
+    "rollup-plugin-size-snapshot": "^0.12.0",
+    "rollup-plugin-uglify": "^6.0.4"
+  }
+}
